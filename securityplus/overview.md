@@ -155,8 +155,53 @@ Data that is available to use without subscription, which may include threat fee
 * Open-Source intelligence (OSINT)
 Methods of obtaining information about a person or organization through public records, website, and social media
 
-    
+##         * Threat Hunting
+* Threat hunting
+      A syber security technique designed to detect presence of threat that have not been discovered by a normal security monitoring
+      Threat hunting is potentially less disruptive than penetration testing
+* Establishing a hypothesis
+      A hypothesis is drived from the threat modeling and is based on potentialevents with higher events with likelihood and higher impact
+* Profiing treat actors and Activites
+      Involevs the creation of scenario that shows how a prospective attacker might attempt an intrusion and what their objectives might be
+* Threat hunting relies on the useg of the toos developed for regular security monitoring and incident response
+      Analyze network rtaffic
+      Analize the executable process list
+      Analyze other infected host
+      Identify how the malicious process was executed
+
+* Threat hunting consumes a lot of recoures and time to conduct, but can yield a lot of benefits
+      Improve detection capabilites
+      Integrate intelligence
+      Reduces attack surface
+      Block attack vectors
+      Identify critical assets
 
 
+##         Attack frameworks
+
+* Kill chain
+      A model developed by CLockheed Martin that describes the stages by which a threat actor progreesses a network intrusion
+      * Reconnaissance
+           The attacker determines what method to use to complete the phases of the attack
+      * Weaponization
+           The attecker couples payload code that will enable access with exploit code that will use a vulnerability to execute on the target system
+      *Delivery
+           The attecker indentifies a vector by which to transmit the weaponized code to the target enviroment
+      * Exploitation
+           The weaponized code is executed on the target system by this mechanism
+      * Installation
+            This mechanism enables the weaponized code to run a remote access tool and achieve persistent on hte target system
+      * Command and Control(C2)
+            The weaponized code establishes an outbount channel to a remote server that can then be used to control the remote access tool and possible download additional tools to progress the attack
+  
+      * Actions on Objectives
+            The attacker typically uses the access he has achieve to covertly collect information from target systems and transfer it to a remote system (data exfiltration) or achieve other goals and motives
+      * kill chain analysis can be used to indetify a defensive course-of-action matrix to counter the progress of an attack at each stage     
+
+      * MITRE ATT&CK Framework
+            A knowledge base maintained by the MITRE Corporation for listing and explayning specific adversary tactics, techniques, and common knowledge or procedures (attack.mitre.org)
+            The pre-ATT&CK tactics matrix aligns to the reconnaissance and weaponzation phases of the kill chain
+      * Dimond Model of Intrusion Analysis
+            A framework for analyzing cybersecurity incidents and intrusions by exploring the relationships between four core features: adversary, infrastructure, and victim
  
 
