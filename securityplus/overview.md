@@ -117,9 +117,9 @@ same concept of policies and written organizational constraints.
       Hackers who find and exploit vulnerabilities before anyone else does.
       1 in 10,000 are Elite
 
-### Threat Actors.
+## Threat Actors.
   Script kiddies.
-**    Hackers with little to no skills who only use the tool and exploits written by others.
+*    Hackers with little to no skills who only use the tool and exploits written by others.
 
   Hacktivists.
 *    Hackers who driven by a couse like social change, political agendas, or terrorism.
@@ -131,5 +131,41 @@ same concept of policies and written organizational constraints.
 *    Highly trained and funded groups of hckers(often by nation states) with covert and open-source intellegence at their disposal.
      
 ## Threat Intelligence and Source.
+● Timeliness
+o Property of an intelligence source that ensures it is up-to-date
+● Relevancy
+o Property of an intelligence source that ensures it matches the use cases intended
+for it
+● Accuracy
+o Property of an intelligence source that ensures it produces
+effective results
+● Confidence Levels
+o Property of an intelligence source that ensures it produces qualified statements
+about reliability
+● Proprietary
+o Threat intelligence is very widely provided as a commercial service offering,
+where access to updates and research is subject to a subscription fee
+● Closed-Source
+o Data that is derived from the provider's own research and analysis efforts, such
+as data from honeynets that they operate, plus information mined from its
+customers' systems, suitably anonymized
+● Open-Source
+o Data that is available to use without subscription, which may include threat feeds
+similar to the commercial providers and may contain reputation lists and
+malware signature databases
+▪ US-CERT
+▪ UK’s NCSC
+▪ AT&T Security (OTX)
+▪ MISP
+▪ VirusTotal
+▪ Spamhaus
+▪ SANS ISC Suspicious Domains
+● Open-Source Intelligence (OSINT)
+o Methods of obtaining information about a person or organization through public
+records, websites, and social media
+
+    
+
+
  
 
