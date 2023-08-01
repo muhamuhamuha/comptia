@@ -120,10 +120,13 @@ same concept of policies and written organizational constraints.
   ## Threat Actors.
   Script kiddies.
 *    Hackers with little to no skills who only use the tool and exploits written by others.
+
   cktivists.
 *    Hackers who driven by a couse like social change, political agendas, or terrorism.
+
   Organized Crime.
 *    Hackers who are part of a crime group that is well-funded and highly sophisticated.
+
   Advanced Persistent Threats.
 *    Highly trained and funded groups of hckers(often by nation states) with covert and open-source intellegence at their disposal.
      
