@@ -106,25 +106,25 @@ same concept of policies and written organizational constraints.
 ## Hackers
 * There are five types of hackers.
 * 1. White hats.
-     ## Non-malicious hackers who attempt to break into a company's systems at their request.
+      Non-malicious hackers who attempt to break into a company's systems at their request.
 * 2. Black hats.
-     ## Malicious hackers who break into computer systems and networks without authotization or permission.
+      Malicious hackers who break into computer systems and networks without authotization or permission.
 * 3. Gray hats.
-     ## Hackers without any affiliation to a company who attempt to break into a company's network but risk the law by doing so.
+      Hackers without any affiliation to a company who attempt to break into a company's network but risk the law by doing so.
 * 4. Blue hats.
-     ## Hackers who attempt to hack into a network with permission of the company but are not employed by the company.
+      Hackers who attempt to hack into a network with permission of the company but are not employed by the company.
   5. Elit.
-     ## Hackers who find and exploit vulnerabilities before anyone else does.
-     ## 1 in 10,000 are Elite
+      Hackers who find and exploit vulnerabilities before anyone else does.
+      1 in 10,000 are Elite
      
   ## Threat Actors.
-     ## Script kiddies.
+  Script kiddies.
 *    Hackers with little to no skills who only use the tool and exploits written by others.
-     ## Hacktivists.
+  cktivists.
 *    Hackers who driven by a couse like social change, political agendas, or terrorism.
-     ## Organized Crime.
+  Organized Crime.
 *    Hackers who are part of a crime group that is well-funded and highly sophisticated.
-     ## Advanced Persistent Threats.
+  Advanced Persistent Threats.
 *    Highly trained and funded groups of hckers(often by nation states) with covert and open-source intellegence at their disposal.
      
 
