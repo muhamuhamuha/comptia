@@ -116,12 +116,12 @@ same concept of policies and written organizational constraints.
   5. Elit.
       Hackers who find and exploit vulnerabilities before anyone else does.
       1 in 10,000 are Elite
-     
-  ## Threat Actors.
-  Script kiddies.
-*    Hackers with little to no skills who only use the tool and exploits written by others.
 
-  cktivists.
+### Threat Actors.
+  Script kiddies.
+**    Hackers with little to no skills who only use the tool and exploits written by others.
+
+  Hacktivists.
 *    Hackers who driven by a couse like social change, political agendas, or terrorism.
 
   Organized Crime.
@@ -130,7 +130,6 @@ same concept of policies and written organizational constraints.
   Advanced Persistent Threats.
 *    Highly trained and funded groups of hckers(often by nation states) with covert and open-source intellegence at their disposal.
      
-
- ## Threat Intelligence and Source.
+## Threat Intelligence and Source.
  
 
