@@ -145,13 +145,13 @@ Threat intelligence is very widly provided as a commercial service offering, whe
 Data that is drived from the provider's own research and analysis efforts, such as data from honeynets that they operate, plus information mined from its customer's system, suitably anonymized
 * Open-Source
 Data that is available to use without subscription, which may include threat feed similar to the commercial providers and may contain reputation lists and malware signature databases
-         * US-CERT
-         * UK's NCSC
-         * AT&T Security (OTX)
-         * MISP
-         * Virus Total
-         * Spamhous
-         * SANS ISC Suspicious Domains
+##         * US-CERT
+##         * UK's NCSC
+##         * AT&T Security (OTX)
+##         * MISP
+##         * Virus Total
+##         * Spamhous
+##         * SANS ISC Suspicious Domains
 * Open-Source intelligence (OSINT)
 Methods of obtaining information about a person or organization through public records, website, and social media
 
