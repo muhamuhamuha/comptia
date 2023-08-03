@@ -1,26 +1,26 @@
 # Overview
 
 * This section of the course focuses on the foundational knowledge
-required for understanding cyber security before diving into technical aspects.
+* required for understanding cyber security before diving into technical aspects.
 * Cyber security involves a constant struggle between security and convenience,
-where trade-offs must be made.
+* where trade-offs must be made.
 * Balancing security and convenience is a challenge both at home and
 within organizations.
 * The desire for convenience often compromises security,
-leading to cyber attacks and data breaches.
+* leading to cyber attacks and data breaches.
 * Major companies spend significant amounts,
-around 1.3 million dollars per data breach, due to this trade-off.
+* around 1.3 million dollars per data breach, due to this trade-off.
 * The section will cover foundational concepts such as the CIA triad
 and triple As of security.
 * Two key terms are defined:
-information security and information systems security.
+* information security and information systems security.
 * Information security pertains to protecting data from unauthorized access,
-modification, disruption, disclosure, corruption, and destruction.
+* modification, disruption, disclosure, corruption, and destruction.
 * Information systems security focuses on safeguarding the devices 
 (e.g., computers, servers, networks, smartphones) that hold
 and process critical data.
 * Section one provides an overview of various topics,
-with more in-depth coverage in subsequent sections to prepare 
+* with more in-depth coverage in subsequent sections to prepare 
 students for certification exams.
 
 ## CIA Triade
@@ -118,33 +118,33 @@ same concept of policies and written organizational constraints.
       1 in 10,000 are Elite
 
 ## Threat Actors.
-  Script kiddies.
+  * Script kiddies.
 *    Hackers with little to no skills who only use the tool and exploits written by others.
 
-  Hacktivists.
+ * Hacktivists.
 *    Hackers who driven by a couse like social change, political agendas, or terrorism.
 
-  Organized Crime.
+  * Organized Crime.
 *    Hackers who are part of a crime group that is well-funded and highly sophisticated.
 
-  Advanced Persistent Threats.
+  * Advanced Persistent Threats.
 *    Highly trained and funded groups of hckers(often by nation states) with covert and open-source intellegence at their disposal.
      
 ## Threat Intelligence and Source.
 * Timeliness
-Property of an intelligence source that ensures it is up to date
+*Property of an intelligence source that ensures it is up to date
 * Relevancy
-Proper of an intelligence source that ensures it matches the use cases intended for it
+* Proper of an intelligence source that ensures it matches the use cases intended for it
 * Accuracy
-Property of an intelligence source that insures it produces effective results
+* Property of an intelligence source that insures it produces effective results
 * Confidence Levels
-Property of an intelligence source that insures it produces qualified statements about reliability
+* Property of an intelligence source that insures it produces qualified statements about reliability
 * Proprietary
-Threat intelligence is very widly provided as a commercial service offering, where access to updates and research is subject subscription fee
+* Threat intelligence is very widly provided as a commercial service offering, where access to updates and research is subject subscription fee
 * Closed-Source
-Data that is drived from the provider's own research and analysis efforts, such as data from honeynets that they operate, plus information mined from its customer's system, suitably anonymized
+* Data that is drived from the provider's own research and analysis efforts, such as data from honeynets that they operate, plus information mined from its customer's system, suitably anonymized
 * Open-Source
-Data that is available to use without subscription, which may include threat feed similar to the commercial providers and may contain reputation lists and malware signature databases
+* Data that is available to use without subscription, which may include threat feed similar to the commercial providers and may contain reputation lists and malware signature databases
 ##         * US-CERT
 ##         * UK's NCSC
 ##         * AT&T Security (OTX)
@@ -153,55 +153,55 @@ Data that is available to use without subscription, which may include threat fee
 ##         * Spamhous
 ##         * SANS ISC Suspicious Domains
 * Open-Source intelligence (OSINT)
-Methods of obtaining information about a person or organization through public records, website, and social media
+* Methods of obtaining information about a person or organization through public records, website, and social media
 
 ##         * Threat Hunting
 * Threat hunting
-      A syber security technique designed to detect presence of threat that have not been discovered by a normal security monitoring
-      Threat hunting is potentially less disruptive than penetration testing
+      * A syber security technique designed to detect presence of threat that have not been discovered by a normal security monitoring
+      * Threat hunting is potentially less disruptive than penetration testing
 * Establishing a hypothesis
-      A hypothesis is drived from the threat modeling and is based on potentialevents with higher events with likelihood and higher impact
+      * A hypothesis is drived from the threat modeling and is based on potentialevents with higher events with likelihood and higher impact
 * Profiing treat actors and Activites
-      Involevs the creation of scenario that shows how a prospective attacker might attempt an intrusion and what their objectives might be
+      * Involevs the creation of scenario that shows how a prospective attacker might attempt an intrusion and what their objectives might be
 * Threat hunting relies on the useg of the toos developed for regular security monitoring and incident response
-      Analyze network rtaffic
-      Analize the executable process list
-      Analyze other infected host
-      Identify how the malicious process was executed
+      * Analyze network rtaffic
+      * Analize the executable process list
+      * Analyze other infected host
+      * Identify how the malicious process was executed
 
 * Threat hunting consumes a lot of recoures and time to conduct, but can yield a lot of benefits
-      Improve detection capabilites
-      Integrate intelligence
-      Reduces attack surface
-      Block attack vectors
-      Identify critical assets
+      * Improve detection capabilites
+      * Integrate intelligence
+      * Reduces attack surface
+      * Block attack vectors
+      * Identify critical assets
 
 
 ##         Attack frameworks
 
 * Kill chain
-      A model developed by CLockheed Martin that describes the stages by which a threat actor progreesses a network intrusion
+      * A model developed by CLockheed Martin that describes the stages by which a threat actor progreesses a network intrusion
       * Reconnaissance
-           The attacker determines what method to use to complete the phases of the attack
+           * The attacker determines what method to use to complete the phases of the attack
       * Weaponization
-           The attecker couples payload code that will enable access with exploit code that will use a vulnerability to execute on the target system
+           * The attecker couples payload code that will enable access with exploit code that will use a vulnerability to execute on the target system
       *Delivery
-           The attecker indentifies a vector by which to transmit the weaponized code to the target enviroment
+           * The attecker indentifies a vector by which to transmit the weaponized code to the target enviroment
       * Exploitation
-           The weaponized code is executed on the target system by this mechanism
+           * The weaponized code is executed on the target system by this mechanism
       * Installation
-            This mechanism enables the weaponized code to run a remote access tool and achieve persistent on hte target system
+            * This mechanism enables the weaponized code to run a remote access tool and achieve persistent on hte target system
       * Command and Control(C2)
-            The weaponized code establishes an outbount channel to a remote server that can then be used to control the remote access tool and possible download additional tools to progress the attack
+            * The weaponized code establishes an outbount channel to a remote server that can then be used to control the remote access tool and possible download additional tools to progress the attack
   
       * Actions on Objectives
-            The attacker typically uses the access he has achieve to covertly collect information from target systems and transfer it to a remote system (data exfiltration) or achieve other goals and motives
+            * The attacker typically uses the access he has achieve to covertly collect information from target systems and transfer it to a remote system (data exfiltration) or achieve other goals and motives
       * kill chain analysis can be used to indetify a defensive course-of-action matrix to counter the progress of an attack at each stage     
 
       * MITRE ATT&CK Framework
-            A knowledge base maintained by the MITRE Corporation for listing and explayning specific adversary tactics, techniques, and common knowledge or procedures (attack.mitre.org)
-            The pre-ATT&CK tactics matrix aligns to the reconnaissance and weaponzation phases of the kill chain
+            * A knowledge base maintained by the MITRE Corporation for listing and explayning specific adversary tactics, techniques, and common knowledge or procedures (attack.mitre.org)
+            * The pre-ATT&CK tactics matrix aligns to the reconnaissance and weaponzation phases of the kill chain
       * Dimond Model of Intrusion Analysis
-            A framework for analyzing cybersecurity incidents and intrusions by exploring the relationships between four core features: adversary, infrastructure, and victim
+            * A framework for analyzing cybersecurity incidents and intrusions by exploring the relationships between four core features: adversary, infrastructure, and victim
  
 
